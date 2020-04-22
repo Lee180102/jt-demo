@@ -1,0 +1,10 @@
+spring:
+  profiles: dev
+
+server:
+  port: 8090
+  servlet:
+    context-path: /dev
+jdbc:
+  driver: mysqlDriver
+  name: mysql
